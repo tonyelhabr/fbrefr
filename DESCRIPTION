@@ -1,0 +1,28 @@
+Package: fbrefr
+Title: Data retrieval from https://fbref.com
+Version: 0.0.0.9000
+Author: Tony ElHabr <anthonyelhabr@gmail.com>
+Authors@R: person('Tony', 'ElHabr', email = 'anthonyelhabr@gmail.com', role = c('aut', 'cre'))
+Description: An R package for retrieving data from https://fbref.com.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Imports: 
+    xml2,
+    rvest,
+    dplyr,
+    tibble,
+    purrr,
+    dplyr,
+    jsonlite
+Suggests: 
+    testthat,
+    covr,
+    knitr,
+    rmarkdown,
+    tidyverse
+Depends:
+    R (>= 3.4.1)
+VignetteBuilder: knitr
+
